@@ -4,11 +4,54 @@
 body {
     @import "header";
 
+// INDEX //
 
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        width: 1000px;
+        margin-bottom: 20rem;
+        
+       
 
+        .section {
+            background-color: white;
+            border: black solid 2px;
+            display: inline-block;
+            text-align: center;
+            width: 500px;
+            height: 500px;
+            padding: 0;
+            margin: 0;
+           
+
+            img {
+                width: 480px;
+                height: 480px;
+                margin: 1rem
+               
+            }
+        }
+    }
 
 
 
 
     @import "footer";
+}
+
+@media (max-width: 500px) {
+                    
+    body .principal .section img {
+       width: 420px;
+       height: 420px; 
+        }
+   
+}
+@media (max-width: 1199px) {
+    .principal {
+        margin-right: 0vw;
+    }
 }

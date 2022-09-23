@@ -5,16 +5,28 @@ header {
     position: relative;
 
     h1 {
-        color: #fff;
+        
+        color: $segundo-color;
         font-size: 20rem;
         position: relative;
         top: 20rem;
         min-width: 100px;
         min-height: 100px;
+        
         @media (max-width:768px) {
             font-size: 12rem;
         }
+        a {
+            text-decoration: none;
+            
+        }
     } 
+    .movPagina {
+        transition: rotate 10ms;
+            &:hover {
+                rotate: -3deg;
+            }
+    }
     .nav {
         position: sticky;
         top: 0;
@@ -23,21 +35,22 @@ header {
     nav {
         ul {
             li {
-                margin: 1rem 3rem;
-                transition: font-size 1s;
-                transition: opacity .005s;
-                &:hover {
+                 margin: 1rem 3rem;
+                 transition: font-size 1s;
+                 transition: opacity .005s;
+                 &:hover {
                     font-size: 2.5rem;
                     opacity: 50%;
-                }
+                  }
 
-                a {
+                 a {
                     text-decoration: none;
-                    color: $color-principal;
-
                     
-                }
-            }}
+                        
+                    
+                    }
+                } 
+            }
     }
     .btn-wsp {
         position: fixed;
