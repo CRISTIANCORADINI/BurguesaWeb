@@ -11,30 +11,47 @@
     }
             }
             .itemPrincipal {
+                min-height: 300px;
+                min-width: 300px;
                 h2 {
-                    margin-top: 25%;
+
+                    margin-top: 20%;
                 }
             }
         }
 
     }  
 }
-@media (min-width:1400px) {
+}
+@media (max-width:400px) {
     body {
         .principal {
         
             .filaPrincipal {
-               
-                
+
                 .itemPrincipal {
-                    
-                    
-                    
-                
+                    h2 {
+                        margin-top: 35%;
+                    }
+                }
                
-        
-       
-        }
+                .sectionA {
+                    
+                }
+                .sectionB {
+                    img {
+                        width: 300px;
+                    }
+                    
+                }
+                .sectionC {
+                    img {
+                        width: 300px;
+                    }
+                }
+                .sectionD {
+                    
+                }
         }
         }
 }
@@ -95,13 +112,11 @@
             }
         }
     }
-    @media (max-width:767px) {
+@media (max-width:767px) {
         .formContacto {
-        
-
-            .form {
+           .form {
                 color: white;
                 font-weight: none;
             }
         }
-    }
+}

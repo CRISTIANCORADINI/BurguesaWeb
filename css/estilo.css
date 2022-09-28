@@ -176,8 +176,19 @@ body footer {
     font-size: 2.5rem;
     padding-left: 5rem;
     padding-right: 5rem; }
+  body .principal .filaPrincipal .itemPrincipal {
+    min-height: 300px;
+    min-width: 300px; }
+    body .principal .filaPrincipal .itemPrincipal h2 {
+      margin-top: 20%; } }
+
+@media (max-width: 400px) {
   body .principal .filaPrincipal .itemPrincipal h2 {
-    margin-top: 25%; } }
+    margin-top: 35%; }
+  body .principal .filaPrincipal .sectionB img {
+    width: 300px; }
+  body .principal .filaPrincipal .sectionC img {
+    width: 300px; } }
 
 @media (max-width: 576px) {
   body main .imgGaleria {
