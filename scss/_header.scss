@@ -1,7 +1,7 @@
 header {
     background-color: $color-principal;
     width: 100%;
-    height: 800px;
+    height: 700px;
     position: relative;
 
     h1 {
@@ -12,8 +12,10 @@ header {
         top: 20rem;
         min-width: 100px;
         min-height: 100px;
-        
-        @media (max-width:768px) {
+        @media (max-width:389px) {
+            font-size: 8rem;
+        }
+        @media (min-width:390px) and (max-width:768px) {
             font-size: 12rem;
         }
         a {
@@ -56,5 +58,6 @@ header {
         position: fixed;
         bottom: 25px;
         right: 22px;
+        z-index: 100;
     }
 }
